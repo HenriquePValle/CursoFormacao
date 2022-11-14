@@ -1,5 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-color:#1C1C1C;
+    background-color:#000000;
 }
 
 .texto-principal {
@@ -22,26 +26,57 @@ body {
     margin-right: 20%; 
 }
 
+header {
+    padding: 20px 0;
+    border: dashed 2px rgb(214, 0, 0);
+    border-radius: 5px;
+    margin: 1%;
+}
+
 .cabeçalho {
-    font-size: 40px;
-    font-weight: bold;
+    width: 95%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.cabeçalho h1 {
+    color: #cc0000;
+    font-size: 30px;
+    text-align: center;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
-.cabeçalho, .menu {
-    color: rgb(93, 228, 66);
+h1 img {
+    height: 180px;
 }
 
-.logo {
-    width: 200px;
+#menu {
+    margin: 20px auto 0 auto;
+    padding: 5px;
+}
+
+#menu ul {
+    padding-left: 8%;
+}
+
+#menu ul li {
     display: inline;
+    margin: 0 15px 0 15px;
 }
 
-.menu {
-    display: inline;
-    margin: 5%;
-    text-decoration: none;
+#menu ul li a {
+    display: inline-block;
+    text-transform: uppercase;
+    color: #ff0000;
+    font-weight: bold;
     font-size: 22px;
-    text-transform: uppercase;
-    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+}
+
+#menu ul li a:hover {
+    color: #00ff00;
+    border: solid 1px #00ff15;
+    border-radius: 5px;
 }
