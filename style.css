@@ -4,6 +4,7 @@
 
 body {
     background-color:#000000;
+    font-family: 'Orbitron', sans-serif;
 }
 
 .texto-principal {
@@ -31,7 +32,7 @@ body {
     background-image: url(imagens/livros.jpg);
     border-radius: 5px;
     padding: 5px 0;
-    margin: 2% 1%;
+    margin: 1% 1% 0 1%;
 }
 
 .cabeçalho h1 {
@@ -59,12 +60,53 @@ nav li {
     display: inline-block;
     font-size: 25px;
     text-transform: uppercase;
-    line-height: 1.5;
+    line-height: 2;
     padding: 1px 3px;
-    margin: 0 15px 0 15px;
+    margin: 0 5% 0 5%;
 }
 
 nav a {
     text-decoration: none;
     color: aliceblue;
+    font-weight: bold;
+    transition: 500ms;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #ed790b;
+    text-shadow: 2px 2px #000000;
+    font-size: 28px;
+}
+
+main {
+    width: 94%;
+    text-align: center;
+    margin: 1px 3% 2%;
+    border: solid 4px red;
+}
+
+main h2 {
+    font-size: 20px;
+    color: gray;
+}
+
+main img {
+    height: 350px;
+}
+
+footer {
+    background-image: url(imagens/livros-footer.jpeg);
+    text-align: center;
+    padding: 2%;
+    margin: 2%;
+    width: 96%;
+}
+
+footer img {
+    height: 100px;
+}
+
+footer p {
+    font-size: 15px;
 }
