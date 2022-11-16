@@ -26,57 +26,45 @@ body {
     margin-right: 20%; 
 }
 
-header {
-    padding: 20px 0;
-    border: dashed 2px rgb(214, 0, 0);
-    border-radius: 5px;
-    margin: 1%;
-}
-
 .cabeçalho {
-    width: 95%;
-    position: relative;
-    margin: 0 auto;
+    width: 98%;
+    background-image: url(imagens/livros.jpg);
+    border-radius: 5px;
+    padding: 5px 0;
+    margin: 2% 1%;
 }
 
 .cabeçalho h1 {
-    color: #cc0000;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
+    color: rgb(255, 191, 0);
     text-transform: uppercase;
     font-weight: bold;
+    text-shadow: 3px 3px #5500af;
 }
 
-h1 img {
-    height: 180px;
+.cabeçalho img {
+    height: 150px;
 }
 
-#menu {
-    margin: 20px auto 0 auto;
-    padding: 5px;
+nav {
+    background: #520000;
+    border-radius: 1px;
+    width: 95%;
+    margin: 0 3%;
+    text-align: center;
 }
 
-#menu ul {
-    padding-left: 8%;
-}
-
-#menu ul li {
-    display: inline;
+nav li {
+    display: inline-block;
+    font-size: 25px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    padding: 1px 3px;
     margin: 0 15px 0 15px;
 }
 
-#menu ul li a {
-    display: inline-block;
-    text-transform: uppercase;
-    color: #ff0000;
-    font-weight: bold;
-    font-size: 22px;
+nav a {
     text-decoration: none;
-    padding: 20px;
-}
-
-#menu ul li a:hover {
-    color: #00ff00;
-    border: solid 1px #00ff15;
-    border-radius: 5px;
+    color: aliceblue;
 }
