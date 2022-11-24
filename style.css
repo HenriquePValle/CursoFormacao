@@ -136,6 +136,15 @@ iframe {
     margin: 1% auto;
 }
 
+.sobre p {
+    line-height: 1.5;
+}
+
+.sobre ul {
+    list-style: disc;
+    line-height: 1.5;
+}
+
 footer {
     background-image: url(imagens/livros-footer.jpeg);
     text-align: center;
