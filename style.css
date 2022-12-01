@@ -24,7 +24,8 @@ body {
 }
 
 .texto-principal {
-    margin-right: 20%; 
+    margin-right: 20%;
+    color: #5F9EA0; 
 }
 
 .cabeçalho {
@@ -147,6 +148,9 @@ iframe {
 
 footer {
     background-image: url(imagens/livros-footer.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     text-align: center;
     padding: 2%;
     margin: 2%;
